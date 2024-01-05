@@ -1,0 +1,129 @@
+.basket_calc_container {
+  width: 500px;
+  height: 393px;
+  border: 2px solid #000000;
+  border-radius: 21px;
+  padding: 25px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.total_count {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.number {
+  width: 446px;
+  height: 73px;
+  left: 939px;
+  top: 492px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.number:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn_order {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.7392px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  width: 446px;
+  height: 76px;
+  background: #339933;
+  border-radius: 17px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_order:hover {
+  border: 5px solid #ffffff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top:10px;
+}
+
+.success {
+  color: #339933;
+}
+
+.failed {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .basket_calc_container {
+    border: none;
+    padding: 5px;
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 20px;
+  }
+.title, .total_count {
+  font-size: 22px;
+}
+
+.total_title {
+  font-size: 17px;
+}
+
+.form {
+  width: 100vw;
+  align-items: center;
+}
+
+.number, .btn_order {
+  width: 80%;
+  height: 50px;
+  font-size: 18px;
+}
+
+
+
+
+}

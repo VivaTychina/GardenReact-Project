@@ -1,0 +1,94 @@
+.container {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  position: relative;
+  background: #efeeee;
+  border-radius: 15px;
+  box-shadow: 2px 21px 34px 2px rgba(34, 60, 80, 0.2);
+
+}
+.container img {
+  width: 100%;
+}
+.discount_price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-decoration-line: line-through;
+  color: #8b8b8b;
+}
+
+.discount {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #ff32a1;
+}
+
+.price_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #3a3a3a;
+  text-decoration: none;
+}
+
+.btn_add_to_basket {
+  width: 100%;
+  border: 2px solid #339933;
+  border-radius: 10px;
+  background: #f1fff1;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  padding: 20px 0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  color: #339933;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.container:hover .btn_add_to_basket {
+  opacity: 0.9;
+  transition: opacity 0.5s;
+}
+
+.container:hover{
+  -webkit-box-shadow: 6px 6px 7px 4px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 6px 6px 7px 4px rgba(34, 60, 80, 0.2);
+  box-shadow: 6px 6px 7px 4px rgba(34, 60, 80, 0.2);
+}
+
+.img_container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
