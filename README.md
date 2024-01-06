@@ -1,1 +1,1 @@
-# GartenReact-Project
+# GardenReact-Project
